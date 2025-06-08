@@ -1,6 +1,7 @@
 package com.mortiz.surveying_app.view
 
 import android.app.Activity
+import android.os.Bundle
 
 class ViewMainActivity : Activity() {
     //Desarrollar una app que permita al usuario
@@ -15,5 +16,8 @@ class ViewMainActivity : Activity() {
 // La vista debe comunicarse solo con el presentador.
 // El presentador debe invocar actualizaciones en la vista mediante una interfaz
 
-    
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
 }
