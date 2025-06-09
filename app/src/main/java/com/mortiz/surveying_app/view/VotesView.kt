@@ -2,8 +2,9 @@ package com.mortiz.surveying_app.view
 
 interface VotesView {
 
-    fun showAllVotes(): List<String>
+    fun showAllVotes()
 
-    fun showVotesByCategory(category: String): List<String>
+    fun showVotesByCategory(category: String)
+    abstract fun showError(s: String)
 
 }
